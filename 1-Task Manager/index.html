@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Linking stylesheet files -->
+        <link rel="stylesheet" href="./css/utils.css">
+        <link rel="stylesheet" href="./css/index.css">
+        
+        <!-- Linking logo on the tab -->
+        <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon">
+
+        <title> CompleteUp </title>
+    </head>
+ 
+    <body class="relative">
+        <!-- Start of Header Part -->
+        <header class="w-100 header-transition">
+            <div class="container flex sp-between relative">
+                <div class="logo transition bg">
+                    <a href="#" class="link flex">
+                        <img src="./images/icon.png" alt="logo image" class="logo-img">
+                        CompleteUp
+                    </a>
+                </div>
+
+                <div class="empty-element absolute transition"></div>
+
+                <div class="top-navbar flex sp-between transition">                    
+                    <div class="navbar-header flex sp-between mb-30">
+                        <div class="logo transition">
+                            <a href="#" class="link flex">
+                                <img src="./images/icon.png" alt="logo image" class="logo-img">
+                                CompleteUp
+                            </a>
+                        </div>
+
+                        <div class="menu-x-btn d-none f-darkGray pointer transition">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                    </div>
+
+                    <ul class="page-links list flex relative">
+                        <li class="flex flex-start pointer py-20 mx-20 ps-element-container relative">
+                            <a href="#" class="link transition f-darkGray fs-16 fw-600 text-capitalized"> product </a>
+                        </li>
+
+                        <li class="flex flex-start pointer py-20 mx-20 ps-element-container relative">
+                            <a href="#" class="link transition f-darkGray fs-16 fw-600 text-capitalized"> solutions </a>
+                        </li>
+
+                        <li class="flex flex-start pointer py-20 mx-20 ps-element-container relative">
+                            <a href="#" class="link transition f-darkGray fs-16 fw-600 text-capitalized"> learn </a>
+                        </li>
+
+                        <li class="flex flex-start pointer py-20 mx-20 ps-element-container relative">
+                            <a href="#" class="link transition f-darkGray fs-16 fw-600 text-capitalized"> pricing </a>
+                        </li>
+                    </ul>
+
+                    <ul class="registr-links list flex flex-end">
+                        <li class="flex pointer py-20">
+                            <a href="#" class="sign-up-btn link flex transition bg-white transition f-darkGray fs-16 fw-600 purple-link"> Sign up </a>
+                        </li>
+
+                        <li class="flex py-20">
+                            <a href="./pages/login.html" class="login-btn link flex transition bg-purple f-white transition f-darkGray fs-16 fw-600"> Log in </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="menu-bar-btn d-none f-darkGray pointer transition">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </header>
+        <!-- End of Header Part -->
+
+        <!-- Start of Main Part -->
+        <main class="bordered-element">
+            <!-- Introduction section -->
+            <section id="intro" class="ps-element-container relative">
+                <div class="container">
+                    <div class="section-row">
+                        <div class="section-content first">
+                            <div class="section-title">
+                                <h6></h6>
+                                <h2 class="m-0 p-0"> Organize your to-do lists from anywhere </h2>
+                            </div>
+
+                            <div class="section-body">
+                                <p class="section-text">
+                                    Create clear, multi-functional to-do lists to easily manage your ideas and work from anywhere so you never forget anything again.
+                                </p>
+
+                                <form class="flex relative">
+                                    <i class="fa-regular fa-envelope-open absolute"></i>
+                                    <input type="email" name="work-email" id="email" placeholder="Enter your work email" class="transition w-100 fs-16 br-4">
+                                    <div class="flex flex-start w-100 fs-16">
+                                        <a href="#" class="link btn flex fw-600 bg-green f-white text-capitalized transition fs-16 br-4"> get started </a>
+                                        <span class="text-uppercased transition fw-600 mx-20">
+                                            free forever.
+                                            <br>
+                                            no credit card
+                                        </span>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="section-img flex flex-column flex-start last">
+                            <img src="./images/task-view-checklist.gif" alt="section image" class="w-100">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Join section -->
+            <section id="join">
+                <div class="container">
+                    <h6 class="text-uppercased fs-16 relative f-gray">
+                        <hr class="absolute w-100">
+                        <span class="relative bg-white"> join 800,000+ highly productive teams </span>
+                    </h6>
+
+                    <div id="teams-container" class="flex relative">
+                        <img src="./images/samsung.png" alt="Samsung">
+                        <img src="./images/belmond.svg" alt="Belmond">
+                        <img src="./images/booking-com.svg" alt="Booking">
+                        <img src="./images/ibm.svg" alt="IBM">
+                        <img src="./images/padres.svg" alt="Padres">
+                        <hr class="absolute w-100"> 
+                    </div>
+                </div>
+            </section>
+
+            <!-- Global To-Do Lists section -->
+            <section id="global-to-do" class="ps-element-container relative">
+                <div class="container">
+                    <div class="section-row">
+                        <div class="section-content first">
+                            <div class="section-title">
+                                <h6> global to do lists </h6>
+                                <h2 class="relative ps-element-container"> Manage your to-do's from anywhere </h2>
+                            </div>
+
+                            <div class="section-body">
+                                <p class="section-text">
+                                    Create and access your to-do lists from anywhere: desktop, mobile phone, or browser tab. Now you'll never miss an idea or forget what you need to do next.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="section-img flex flex-column flex-start last relative">
+                            <img src="./images/global-to-do-lists.png" alt="section image" class="w-100 transition">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Customization section -->
+            <section id="customization" class="ps-element-container relative">
+                <div class="container">
+                    <div class="section-row">
+                        <div class="section-content last">
+                            <div class="section-title">
+                                <h6> customization </h6>
+                                <h2 class="relative ps-element-container"> Create the perfect list for every need </h2>
+                            </div>
+
+                            <div class="section-body">
+                                <p class="section-text">
+                                    You can make CompleteUps to-do lists show what you want, how you want. Add formatting, coloring, and link items with assignees or tasks to transform lists into actionable workflows.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="section-img flex flex-column flex-start first relative">
+                            <img src="./images/customization.png" alt="section image" class="w-100 transition">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Templates section -->
+            <section id="templates" class="ps-element-container relative">
+                <div class="container">
+                    <div class="section-row">
+                        <div class="section-content first">
+                            <div class="section-title">
+                                <h6> templates </h6>
+                                <h2 class="relative ps-element-container"> Save time with checklist templates </h2>
+                            </div>
+
+                            <div class="section-body">
+                                <p class="section-text">
+                                    Save any list as a template to reuse and customize as many times as you want. You can even create recurring tasks with saved checklists for error-free processes.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="section-img flex flex-column flex-start last relative">
+                            <img src="./images/templates.png" alt="section image" class="w-100 transition">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Organization section -->
+            <section id="organization" class="ps-element-container relative">
+                <div class="container">
+                    <div class="section-row">
+                        <div class="section-content last">
+                            <div class="section-title">
+                                <h6> organization </h6>
+                                <h2 class="relative ps-element-container"> Never miss a task or idea again </h2>
+                            </div>
+
+                            <div class="section-body">
+                                <p class="section-text">
+                                    CompleteUp's Home view makes it easy to view and customize everything you need to work on. Set reminders, reschedule tasks, and assign priorities so you never lose anything again.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="section-img flex flex-column flex-start first relative">
+                            <img src="./images/organization.png" alt="section image" class="w-100 transition">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Add section -->
+            <section id="add" class="ps-element-container relative">
+                <div class="container">
+                    <div class="section-header section-row flex br-4 sp-between">
+                        <div class="w-50 flex">
+                            <h5 class="f-darkGray fw-600 px-25 py-20"> Add checklists to your... </h5>
+                        </div>
+ 
+                        <div class="buttons-container h-100 w-50 flex sp-between relative"> </div>
+                    </div>
+
+                    <div class="sections-container relative"> </div>
+                </div>
+            </section>
+        </main>
+        <!-- End of Main Part -->
+
+        <!-- Start of Footer Part -->
+        <footer>
+            <div class="container">
+                <div class="section-row">
+                    <div class="description">
+                        <div class="logo transition flex flex-start">
+                            <a href="#" class="link flex">
+                                <img src="./images/icon.png" alt="logo image" class="logo-img">
+                                CompleteUp
+                            </a>
+                        </div>
+                        <div class="copyright mt-15">
+                            <p class="fs-16"> 
+                                <a href="#" title="Learn about developer" class="link f-gray fw-500">
+                                    &copy; 2023 CompleteUp |
+                                    Elshan Hasanov 
+                                </a>.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="social-links flex flex-end">
+                        <a href="https://www.linkedin.com/in/elshan-hasanov-4b570624a/" class="link f-gray transition linkedin">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/elshan-hasanov-4b570624a/" class="link f-gray transition facebook">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/elshan___hasanov/" class="link f-gray transition instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/elshan-hasanov-4b570624a/ twitter" class="link f-gray transition twitter">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End of Footer Part -->
+
+        <!-- Importing JavaScript files -->
+        <script src="./js/index.js"></script>
+        <script src="./js/navbar.js"></script>
+        <script src="./js/footer.js"></script>
+    </body>
+</html>

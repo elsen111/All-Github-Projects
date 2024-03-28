@@ -1,0 +1,330 @@
+/* Introduction Section */
+#intro.ps-element-container::before {
+    background-image: url('../images/home-header-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 144%;
+    z-index: -1;
+    top: -30%;
+    right: -38%;
+}
+
+#intro  .section-text {
+    font-size: 1.8rem;
+    margin-bottom: 2.5rem;
+}
+
+#intro  input {
+    border: none;
+    border-left: .48rem solid #4BD37B;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    color: #4a4a4a;
+    margin: 1rem  0  0  0;
+    outline: none;
+    padding: 2rem  4.6rem  1.8rem  4.6rem;
+}
+
+#intro  form  i {
+    color: #4BD37B;
+    font-size: 1.8rem;
+    top: 2.8rem;
+    left: 2rem;
+}
+
+#intro  form  .link {
+    height: 4.8rem;
+    padding: 0  3rem;
+    margin: 2.5rem  0;
+}
+
+#intro  form  span { line-height: 2rem }
+
+#intro  .section-img > img { box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px }
+
+
+
+#intro  input::placeholder { color: #b9bec7 }
+
+#intro  input:focus { box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px }
+
+#intro  .btn:hover + span { color: #b9bec7 }
+
+
+
+
+
+
+
+
+
+
+/* Join section */
+#join  h6 {
+    margin: 5rem  0  1.5rem  0;
+    text-align: center;
+}
+
+#join  h6 >  hr {
+    top: 50%;
+    z-index: -1;
+}
+
+#join  span { padding: 0  3rem }
+
+#join  #teams-container {
+    margin: 1rem  4.85rem  2rem  4.85rem;
+    padding: 3rem  0;
+}
+
+#join  #teams-container > img {
+    width: 10%;
+    margin: 0  2rem;
+}
+
+
+
+
+
+
+
+
+
+
+/* Global To-Do Lists section */
+#global-to-do  .section-title > h2.ps-element-container::before { background-color: #7b68ee }
+
+#global-to-do  .section-title > h6 { color: #7b68ee }
+
+#global-to-do  .section-img.last::before { background-image: url('../images/purple-diamond.svg') }
+
+
+
+
+
+
+
+
+
+
+/* Customization section */
+#customization  .section-title > h2.ps-element-container::before { background-color: #fd71af }
+
+#customization  .section-title > h6 { color: #fd71af }
+
+#customization  .section-img.first::before { background-image: url('../images/pink-diamond.svg') }
+
+
+
+
+
+
+
+
+
+
+/* Templates section */
+#templates  .section-title > h2.ps-element-container::before { background-color: #49ccf9 }
+
+#templates  .section-title > h6 { color: #49ccf9 }
+
+#templates  .section-img.last::before { background-image: url('../images/blue-diamond.svg') }
+
+
+
+
+
+
+
+
+
+
+/* Organization section */
+#organization  .section-title > h2.ps-element-container::before { background-color: #2fb567 }
+
+#organization  .section-title > h6 { color: #2fb567 }
+
+#organization  .section-img.first::before { background-image: url('../images/green-diamond.svg') }
+
+
+
+
+
+
+
+
+
+
+/* Add section */
+#add { margin-bottom: 4rem }
+
+#add  .section-header {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    border-left: .5rem  solid  #7b68ee;
+    padding: 2rem  1.5rem;
+    margin-bottom: 5rem;
+}
+
+#add  .section-header  h5 { font-size: 3.5rem }
+
+.buttons-container.flex > div { width: 33% }
+
+.buttons-container  button { color: #b9bec7 }
+
+.buttons-container  button  i { font-size: 3.1rem }
+
+.active-tab  h6 { color: #292d34 }
+
+.active-tab.bg_purple > i { color: #7b68ee }
+
+.active-tab.bg_red > i { color: #fd71af }
+
+.active-tab.bg_blue > i { color: #49ccf9 }
+
+#add  h2 {
+    font-size: 3.5rem;
+    line-height: 5rem;
+    margin-top: 0;
+}
+
+#add  .section-img { box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px }
+
+#add  .section-img.first::before {
+    top: -28%;
+    left: -5%;
+    width: 115%;
+    height: 160%;
+}
+
+#add  .tasks  .section-title > h2.ps-element-container::before { background-color: #7b68ee }
+
+#add  .tasks  .section-img.first::before { background-image: url('../images/bg__beside-create-tasks.svg') }
+
+#add  .docs  .section-title > h2.ps-element-container::before { background-color: #fd71af }
+
+#add  .docs  .section-img.first::before { background-image: url('../images/bg__beside-track-time.svg') }
+
+#add  .notes  .section-title > h2.ps-element-container::before { background-color: #49ccf9 }
+
+#add  .notes  .section-img.first::before { background-image: url('../images/bg__beside-screenshot.svg') }
+
+
+
+.buttons-container > div:hover  button:not(.active-tab) { color: #787777 }
+
+
+
+
+
+
+
+
+
+
+/* Responsive Design */
+/* Small Screen devices */
+@media only screen and (max-width: 768px) {
+    /* Introduction section */
+    #intro  .section-text {
+        font-size: 1.5rem;
+        line-height: 2.3rem;
+        margin-top: 2rem;
+    }
+
+    #intro  form  i { top: 1.65rem }
+
+    #intro  input { margin: 0 }
+
+    #intro  form  .link { margin: 1rem  0 }
+
+    #intro.ps-element-container::before {
+        width: 200%;
+        height: 60%;
+        top: 40%;
+        right: -50%;
+    }
+
+
+
+
+
+    /* Join section */
+    #join  h6 > hr { display: none }
+
+    #join  #teams-container {
+        justify-content: space-around;
+        margin: 3rem  0;
+        padding: 0  1.5rem;
+        column-gap: 2rem;
+    }
+
+    #join  #teams-container > img {
+        margin: 0;
+        padding: 2rem  0;
+        width: 15rem;
+        height: 7rem;
+    }
+
+    #teams-container  hr {
+        bottom: -40%;
+        opacity: .4;
+    }
+
+
+
+
+
+    /* Add section */
+    #add  .section-header { margin-bottom: 0 }
+
+    #add  h5 { text-align: center }
+
+    #add .section-img { box-shadow: none }
+
+    #add  .section-img > img { box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px }
+
+    #add  .buttons-container {
+        flex-direction: column;
+        margin-top: 3rem;
+        overflow: hidden;
+        z-index: 0;
+    }
+
+    #add  .buttons-container > .pointer,
+    #add  .buttons-container  button {
+        background: #fff;
+        z-index: 1;
+        opacity: 1;
+    }
+
+    #add  .buttons-container > div { width: 100% }
+
+
+    .buttons-container  .section-img.first::before { top: -50% !important }
+
+    .buttons-container  .section-text { color: #292d34 }
+
+    .buttons-container > .section-row:not(.d-none) {
+        transform: translateY(0);
+        transition: opacity 0s;
+        transition: transform  .7s;
+    }
+
+    #add > .container > .sections-container { display: none } 
+}
+
+
+
+
+
+/* Small Screen devices */
+@media only screen and (max-width: 576px) {
+    /* Introduction section */
+    #intro.ps-element-container::before {
+        width: 200%;
+        height: 50%;
+        top: 60%;
+        right: -50%;
+    }
+}
