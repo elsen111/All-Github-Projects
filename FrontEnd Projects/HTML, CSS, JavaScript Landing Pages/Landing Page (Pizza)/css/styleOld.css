@@ -1,0 +1,145 @@
+/* Importing font family */
+@import 
+url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+
+
+
+
+
+
+/* Ready classes */
+/* Buttons */
+.btn-sm {
+    padding: .96rem  1.6rem;
+    border: .2rem  solid  rgb(238, 238, 238);
+}
+
+.btn-lg {
+    padding: .96rem  1.92rem;
+}
+
+
+
+/* Containers */
+.container {
+    background-color: #a68462;
+    width: min(109rem, 85%);
+    /* width: 109rem; */
+    padding: 9.6rem  1.6rem;
+    margin: 0  auto;
+}
+
+
+
+/* Flex containers */
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* Links */
+.link {text-decoration: none;}
+
+
+
+/* Lists */
+.list {list-style: none;}
+
+
+
+/* Font weights */
+.fw-300 {font-weight: 300;}
+.fw-400 {font-weight: 400;}
+.fw-500 {font-weight: 500;}
+.fw-600 {font-weight: 600;}
+
+
+
+/* Font style */
+.italic {font-style: italic;}
+
+
+
+/* Margins */
+.mb-24 {margin-bottom: 2.4rem;}
+.mb-8 {margin-bottom: .8rem;}
+
+
+
+/* Paddings */
+.px-16 {padding: 0  1.6rem;}
+.pb-24 {padding-bottom: 2.4rem;}
+
+
+
+
+
+
+
+/* CSS variables */
+:root {
+    /* Font size */
+    --fs-xl: 27.2rem;
+    --fs-lg: 6.08rem;
+    --fs-md: 4rem;
+    --fs-sm: 3.04rem;
+    --fs-xs: 1.76rem;
+    
+    /* Text-colors */
+    --white: #fff;
+    --brown: #a68462;
+}
+
+
+
+
+
+
+
+/* Resetting default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {font-size: 10px;}
+
+body {
+    background-color: #414142;
+    font-family: 'Space Grotesk', sans-serif;
+    color: var(--white);
+}
+
+
+
+
+
+/* Header part */
+header {
+    height: 10rem;
+}
+
+header > .container {
+    padding: 0  1.6rem;
+    height: 7.228rem;
+}
+
+#logo > a {
+    font-size: var(--fs-md);
+    color: var(--white);
+}
+
+#logo  img {
+    height: 3.8rem;
+    /* width: 4.852rem; */
+}
